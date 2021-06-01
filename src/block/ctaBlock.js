@@ -94,8 +94,8 @@ registerBlockType("cgb/block-cta-block", {
 					</div>
 					<div className="hd-cta__col">
 						<div className="hd-cta__btn">
-							<input type="text" onChange={updateBtnText} value={props.attributes.btnText} placeholder="Button text..." />
-							<input type="text" onChange={updateBtnLink} value={props.attributes.btnLink} placeholder="Button link..." />
+							<input type="text" onChange={ updateBtnText } value={props.attributes.btnText} placeholder="Button text..." />
+							<input type="text" onChange={updateBtnLink } value={props.attributes.btnLink} placeholder="Button link..." />
 						</div>
 					</div>
 				</div>
@@ -109,19 +109,19 @@ registerBlockType("cgb/block-cta-block", {
 				<div className="hd-cta__row">
 				<div className="hd-cta__col">
 						<div className="hd-cta__title">
-						<h3> {props.attributes.header} </h3>
+						<h3> { props.attributes.header } </h3>
 						</div>
 					</div>
 				</div>
 				<div className="hd-cta__row">
 					<div className="hd-cta__col">
 						<div className="hd-cta__content">
-							<p> {props.attributes.content} </p>
+							<p> { props.attributes.content } </p>
 						</div>
 					</div>
 					<div className="hd-cta__col">
 						<div className="hd-cta__btn">
-							<a className="btn btn__cta" href={props.attributes.btnLink}> {props.attributes.btnText} </a>
+							<a className="btn btn__cta" href={ props.attributes.btnLink }> {props.attributes.btnText} </a>
 						</div>
 					</div>
 				</div>

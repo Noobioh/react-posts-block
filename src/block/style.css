@@ -64,6 +64,10 @@
   min-height: 70px;
 }
 
+.hd-cta p, .hd-cta h3, .hd-cta a {
+  color: #fff !important;
+}
+
 .btn {
   padding: 13px 16px;
   text-align: center;

@@ -48,6 +48,9 @@ $purple: rgb(26, 134, 223);
     width: 100%;
     min-height: 70px;
   }
+  p, h3, a {
+    color: #fff !important;
+  }
 }
 
 .btn {
@@ -61,4 +64,5 @@ $purple: rgb(26, 134, 223);
     background: rgb(26, 223, 180);
     color: #fff;
   }
+
 }
